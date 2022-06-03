@@ -1,0 +1,61 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+
+.container{
+    max-width:400px;
+    margin: auto;
+}
+.todo-form{
+    display: flex;
+    margin: 10px 0;
+}
+
+.todolist-container{
+    height: 400px;
+    overflow-y: auto;
+    overflow-x: hidden;
+    box-shadow: 0 0 3px;
+    border-radius: 5px;
+
+}
+
+.todolist-container::-webkit-scrollbar{
+    width:5px;
+    border-radius: 5px;
+    background-color: rgb(196, 196, 196);
+}
+
+.todolist-container::-webkit-scrollbar-thumb{
+    background-color: rgb(29, 29, 29);
+    border-radius: 5px;
+
+}
+
+.todo-add-btn{
+    padding: 5px 10px;
+}
+.todo-input{
+    padding: 3px;
+    width: 100%;
+}
+
+.todo-item{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    box-shadow: 0 0 1px;
+}
+
+.todo-item__check{
+
+}
+
+.todo-item__title{
+    margin-right: auto;
+    margin-left: 10px;
+}
